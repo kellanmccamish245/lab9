@@ -14,7 +14,7 @@ In this lab, you learned about the basic building block of sequential circuits: 
 ## Names
 Kellan McCamish, Sara Street, Justine Jacobson
 ## Summary
-In this lab we learned how to implement a D-Latch and scaled it up to a 4-byte memory system. We utilized sequential logic in Verilog so that the circuits can store and hold state over time, unlike combinational logic. In the D-Latch when btnC is pressed it gets the value of the switch and holds it. In the 4-Byte memory system we utilized demux to route the data and stores the signal into the correct byte. Then we send bytes output to the MUX, which then displays the desired output to our board(display)
+In this lab we learned how to implement a D-Latch and scaled it up to a 4-byte memory system. We utilized sequential logic in Verilog so that the circuits can store and hold state over time, unlike combinational logic. In the D-Latch when btnC is pressed it gets the value of the switch and holds it. In the 4-Byte memory system we utilized demux to route the data and stores the signal into the correct byte. Then we send bytes output to the MUX, which then displays the desired output to our board(display).
 ## Lab Questions
 
 ###  Why can we not just use structural Verilog to implement latches?
